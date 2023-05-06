@@ -1,0 +1,24 @@
+{
+  "name": "kicken/php-etherwake",
+  "description": "Send wake-on-lan packets with PHP",
+  "keywords": [
+    "wol",
+    "wake-on-lan",
+    "etherwake"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keith Maika"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/etherwake.php"
+    ]
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
